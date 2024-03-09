@@ -1,0 +1,497 @@
+body{
+    font-family: fantasy;
+    background:black;
+    width: 100%;
+}
+
+/*NAVBAR STARTING*/
+
+.HEADINGS{
+    position: relative;
+    border-top: 8px solid white;
+    border-bottom: 8px solid white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.HEADINGS h1{
+    text-align:center;
+    color:red;
+}
+.HEADINGS H3{
+    text-align:center;
+    color:white;
+}
+.HEADINGS h6{
+    text-align:center;
+    color:#3f3f3f;;
+}
+
+
+
+.phone_no{
+position: absolute;
+transform: translate(-5%, -90%);
+    }
+
+.phone_no h5{
+    color: rgb(255, 255, 255);
+}
+
+.phone_no h5:hover{
+    color:red;
+}
+
+.email{
+    position: absolute;
+    transform: translate(55%, -90%);
+
+}
+
+.email h5{
+    color: rgb(255, 255, 255);
+}
+
+
+.email h5:hover{
+    color:red;
+}
+
+
+.navbar{
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+ 
+ 
+/*dropdown why us and signup*/
+.btn{
+    background: black;
+    border-color: darkred;
+    color:white;
+}
+
+/*CAROUSEL*/
+
+.carousel-item image{
+    object-fit: fill;
+    }
+
+.carousel-caption h2{
+    font-size: 5vw;   
+    border-radius: 65px;
+    color:red;
+}
+.carousel-caption h2:hover{
+    zoom: 1.5;
+}
+
+.carousel-caption h3{
+    font-size: 2vw;
+    border-radius: 65px;
+
+}
+.carousel-caption h3:hover{
+    zoom: 1.5;
+}
+
+
+.guides{
+    background:white;
+    border:black;
+    text-align: center;
+    }
+
+.guides img{
+    height: 50px;
+}
+
+.guides a{
+    text-decoration:none;
+    color:black;
+    padding:10px;
+}
+
+.guides :hover{
+    color:rgb(243, 8, 8);  
+    zoom: 1.2;
+}
+
+
+
+.mb-3{
+    color:red;
+}
+
+.dropdown-menu{
+    width: 50%;
+}
+
+    /*some abouts*/
+.row{
+    width: 100%;
+    background: rgb(0, 0, 0);
+
+}
+
+.col-1{
+    width: 50%;
+    text-decoration: none;
+    margin-top: 7%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-style: oblique;
+}
+
+.col-1 img:hover{
+    zoom: 1.2;
+    }
+
+.col-1 h1{
+font-size: 5vw;
+}
+
+.col-1 h3{
+    color: rgba(255, 0, 0, 0.521); 
+}
+
+.col-1 h5{
+    color: rgba(255, 0, 0, 0.521); 
+}
+
+
+.col-2{
+    width: 50%;
+}
+
+
+/* Container holding the image and the text */
+
+.container {
+    position: relative;
+    text-align: justify;
+    color: white;
+}
+
+.container-cardio-img-1{
+    transform: translate(-5%, 15%);
+
+}
+
+.container-cardio-img-2{
+    transform: translate(75%, -85%);
+
+}
+
+
+/*Body.php*/ /*and*/ /*fitness.php*/
+.cent{
+    text-align: justify;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cent h1{
+    padding: 0px,20px ;
+    font-size: 8vw;   
+    color:rgba(0, 255, 0, 0.478);  
+}
+
+.cent-1{
+    top: 60%;
+    left: 20%;
+    right: 20%;
+    text-align: justify;
+    position: absolute;
+}
+
+    
+
+.cent-1 h1{
+    color: red;
+    text-decoration:underline;
+}
+.cent-1 h3{
+    color:rgba(250, 2, 2, 0.845);
+}
+.cent-1 h5{
+    color: rgb(255, 255, 255);
+}
+
+
+
+/*Cardio.php same*/
+
+
+/*Exerices lists*/
+.card-title{
+     text-transform: uppercase;
+}
+
+.col-11{
+    width: 33.33%;
+    margin-left: 220px;
+}
+
+.col-12{
+    width: 33.33%;
+    margin-left: 220px;
+}
+
+
+
+/*WORKOUT-PLANS*/
+
+.workout-plan-1{
+    position:relative;
+    width:33.33%;
+}
+.workout-plan-1 img{
+    width:100%;
+    height:auto;
+}
+.workout-plan-1:hover .overlay {
+  height: 50%;
+}
+
+.workout-plan-2{
+    position:relative;
+    width:33.33%;
+}
+.workout-plan-2 img{
+    width:100%;
+    height:auto;
+}
+.workout-plan-2:hover .overlay{
+  height: 50%;
+}
+
+.workout-plan-3{
+    position:relative;
+    width:33.33%;
+}
+.workout-plan-3 img{
+    width:100%;
+    height:auto;
+}
+.workout-plan-3:hover .overlay {
+  height: 50%;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .7s ease;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.text h4:hover{
+  color: red;
+}
+
+/*WORKOUT-PLANS_6-WEEK-ADVANCED-WORKOUT-PLAN-TO-BUILD-MUSCLE*/
+
+.week{
+    text-transform: uppercase;
+    margin:130px;
+}
+.week_title{    
+    background: white;
+    color: black;
+    clear: both;
+    text-align: center;
+    padding: 10px;
+}
+.entry{
+    height: 157.363px;
+    transition: all 0.2s ease;
+    float: left;
+    text-align: center;
+    width: 14.28%;
+    border: 5px solid #f10000;
+}
+
+
+.entry img{    
+    position: absolute;
+    transform: translate(-18px, 15px);
+    width: 7%;
+    margin: 0px auto;
+}
+
+.day{
+    color: black;
+    background: #f10000;
+    font-size: 0.85em;
+    margin: 100px 0;
+    padding: 1px 10px 2px;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+.title{
+    text-transform: uppercase;
+    font-size: 1em;
+    margin-top: -100px;
+    color: white;
+}
+
+.REST-DAY p{
+    position: absolute;
+    transform: translate(370px, 245px);
+    font-style: oblique;
+    font-size: 12vw;
+    color:white;
+
+}
+
+.REST-DAY h1{
+     position: absolute;
+    transform: translate(610px, 500px);
+    font-style: oblique;
+    font-size: 3vw;
+    color: white;
+}
+
+.REST-DAY h1:hover{
+    color:#000000ba;
+}
+
+.REST-DAY img{
+    transform: translate(180px, 140px);
+    position: absolute;
+    width: 1000px;
+    height: 450px;
+    
+}
+
+/*ABOUT CENTERED*/
+
+.col-222{
+    position: absolute;
+    border:10px solid red;
+}
+
+.col-222 h1{
+    text-align: center;
+    color: rgba(255, 0, 0, 0.521); 
+}
+
+.col-222 h3{
+    color:white;
+}
+
+.col-222 a{
+    font-size:xx-large;
+    text-decoration:none;
+    color: rgba(255, 0, 0, 0.816); 
+}
+
+.col-222 a:hover{
+    zoom: 1.2;
+    color: rgba(252, 2, 2, 0.359); 
+}
+
+
+/*about-footer*/
+.social-media{
+    position:absolute;
+    transform: translate(1100%, 800%);
+    background:red;
+    
+}
+.social-media li{
+        display:inline;
+}
+
+
+
+
+
+
+/*body-type-body*/
+.body-type-body{
+    border-style:solid;
+}
+
+.body-type{
+    border-block: inherit;
+    border-top: none;
+    padding: 5px;
+    text-align: center;
+}
+
+.body-type a{
+    text-decoration: none;
+    padding: 25px;
+    color:red;
+    font-size: 3vw;
+}
+
+.body-type-1{
+    border-block: inherit;
+    border-top: none;
+    padding: 5px;
+}
+
+.body-type-1 a{
+    text-decoration: none;
+    color: rgba(255, 0, 0, 0.708);
+
+}
+
+.body-type-2{
+    border-block: inherit;
+    border-top: none;
+    padding: 5px;
+}
+
+.body-type-2 a{
+    text-decoration: none;
+    color: rgba(255, 0, 0, 0.708);
+
+}.body-type-3{
+    border-block: inherit;
+    border-top: none;
+    padding: 5px;
+}
+
+.body-type-3 a{
+    text-decoration: none;
+    color: rgba(255, 0, 0, 0.708);
+
+}
+
+.mntl-sc-block-table__table{
+    border: 5px;
+}
+
+
+
+/*.bordershadow {
+    height: 70px;
+    width: 80%;
+    line-height: 70px;
+    text-align: center;
+    border: 2px solid #dd;
+    border-radius: 3px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+    transition: all 200ms ease-out;
+}*/
